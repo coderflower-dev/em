@@ -21,3 +21,5 @@ int comparison = 0;
 #define HLT -1 // Stops the program (even em)
 
 void exec(int prog[MAX_SYS]);
+
+void clear_input_buffer();
