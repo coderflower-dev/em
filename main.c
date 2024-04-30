@@ -32,8 +32,3 @@ int main(int argc, char* argv) { // Program
 
     exec(prog);
 }
-
-void clear_input_buffer() {
-    while (getchar() != '\n');
-}
-
