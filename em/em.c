@@ -75,3 +75,10 @@ void exec(int prog[1028]) {
         }
     }
 }
+
+
+void clear_input_buffer() {
+    while (getchar() != '\n');
+}
+
+
