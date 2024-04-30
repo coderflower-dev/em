@@ -1,2 +1,2 @@
 all:
-	gcc em.c lang/lang.c -o em
+	gcc main.c em/em.c -o em
