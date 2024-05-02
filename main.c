@@ -1,7 +1,8 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 #include "em/em.h"
+
+char mem[MAX_SYS] = {0};  // Initialize memory array
+int prog[MAX_SYS] = {0};  // Initialize program array
+int comparison = 0;  
 
 int main(int argc, char* argv) { // Program
 
