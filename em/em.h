@@ -1,11 +1,14 @@
 #pragma once
 
+#include <stdio.h>
+#include <stdlib.h>
+
+
 #define MAX_SYS 1028
 
-char mem[MAX_SYS]; // Do not set automaticly
-int prog[MAX_SYS]; // Program
-
-int comparison = 0;
+extern char mem[MAX_SYS]; // Memory array
+extern int prog[MAX_SYS]; // Program array
+extern int comparison;    // Comparison result
 
 // Op codes
 #define SET 0 // Set location in ram a value
